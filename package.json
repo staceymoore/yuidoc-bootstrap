@@ -17,5 +17,7 @@
   "author": "Stacey Moore",
   "bugs": {
     "url": "https://github.com/staceymoore/yuidoc-bootstrap/issues"
+  },
+  "dependencies": {
   }
 }

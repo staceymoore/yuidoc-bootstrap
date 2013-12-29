@@ -1,3 +1,5 @@
+fs = require('fs');
+
 module.exports = {
     publicClasses: function(context, options) {
         'use strict';
@@ -36,5 +38,10 @@ module.exports = {
         }
 
         return ret;
+    },
+    mainPage: function(options) {
+
+        return null;
+
     }
 };
