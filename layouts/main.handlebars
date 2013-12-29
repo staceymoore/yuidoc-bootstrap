@@ -15,10 +15,10 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
     <div class="container">
-        <h1 class="brand" style="padding: 10px 16px 10px 0px; height: 20px; line-height: 20px; margin-left: 0;">
+        <a href="{{projectRoot}}"><h1 class="brand" style="padding: 10px 16px 10px 0px; height: 20px; line-height: 20px; margin-left: 0;">
             {{projectName}}
-        </h1>
-	<div class="nav">
+        </h1></a>
+    <div class="nav">
             <li class="divider-vertical"></li>
             <li>
                 <p class="navbar-text">
@@ -35,7 +35,7 @@
 <div class="container">
     <div class="row">
         <div class="span3">
-	    {{>sidebar}}
+        {{>sidebar}}
         </div>
         <div class="span9">
             {{>options}}
