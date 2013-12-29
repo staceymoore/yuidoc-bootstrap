@@ -38,10 +38,5 @@ module.exports = {
         }
 
         return ret;
-    },
-    mainPage: function(options) {
-
-        return null;
-
     }
 };
