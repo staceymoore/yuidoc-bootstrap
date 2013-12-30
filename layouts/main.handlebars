@@ -15,18 +15,18 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
     <div class="container">
-        <a href="{{projectRoot}}index.html"><h1 class="brand" style="padding: 10px 16px 10px 0px; height: 20px; line-height: 20px; margin-left: 0;">
+        <a href="{{projectRoot}}index.html"><h1 class="brand">
             {{projectName}}
         </h1></a>
     <div class="nav">
             <li class="divider-vertical"></li>
             <li>
                 <p class="navbar-text">
-                    API Docs for Version: <b>{{projectVersion}}</b>
+                    Documentation for: <b>Version: {{projectVersion}}</b>
                 </p>
             </li>
         </div>
-        <form class="navbar-form pull-right" style="line-height: 40px; height: 40px;">
+        <form class="navbar-form pull-right">
             <input style="margin-top: 0;" type="text" class="search-query" placeholder="Search for classes/modules..." data-obj='[{{#search classes allModules}}{{/search}}]'>
         </form>
     </div>
