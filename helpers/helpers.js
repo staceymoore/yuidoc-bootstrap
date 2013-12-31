@@ -58,6 +58,7 @@ module.exports = {
         if (fs.existsSync(content) === true) {  
             content = fs.readFileSync(content, {encoding: "utf8"});
             content = markdown.toHTML(content);
+            content = "<div class=\"well\">" + content + "</div>"
         } else {
             content = '';
         }
