@@ -95,7 +95,7 @@
 li.module-class, .well li, .item li, .apidocs li {
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWOYOXPmf3TMQANBAD7vRbsVbYywAAAAAElFTkSuQmCC");
 }
-.nav li {
+.nav li, .linenums li {
     list-style-image: none;
 }
 code {
