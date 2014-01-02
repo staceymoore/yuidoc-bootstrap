@@ -50,9 +50,9 @@ module.exports = {
 
         var content = config.theme.home
         if (typeof content === 'string' && content !== '') {
-            content = path.join(process.cwd(), content);
+            content = path.resolve(process.cwd(), content);
         } else {
-            content = path.join(process.cwd(), 'README.md');
+            content = path.resolve(process.cwd(), 'README.md');
         }
        
         if (fs.existsSync(content) === true) {  
