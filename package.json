@@ -1,6 +1,6 @@
 {
   "name": "yuidoc-bootstrap",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "A Yuidoc Theme Based on Twitter Bootstrap",
   "main": "index.html",
   "scripts": {
